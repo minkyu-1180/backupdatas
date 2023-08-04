@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d220012-f15f-4073-86b4-6ea9790db2a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/list1/1-List1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/1-s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/1-s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/1-s5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/1-s6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/dsafasdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/flatten/flatten.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/minmax/4828minmax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/sw11092.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/sw9386.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list1/view/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-ex3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/2-s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list2/list2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-hw1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list3/3-s6.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2TKBAR1ZbntNnZdsyMGn1yeVkzB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\algorithm\list1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.1-s3">
+    <configuration name="1-List1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\algorithm\list1\1-List1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1-s1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list1/1-s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1-s2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\SSAFY\Desktop\algorithm\list1\1-s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1-s3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/list1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/list1/1-s3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1-s3" />
+        <item itemvalue="Python.1-s1" />
+        <item itemvalue="Python.1-s2" />
+        <item itemvalue="Python.1-List1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d220012-f15f-4073-86b4-6ea9790db2a4" name="Default Changelist" comment="" />
+      <created>1690781748000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690781748000</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
