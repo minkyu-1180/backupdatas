@@ -2,23 +2,18 @@
 import sys
 sys.stdin = open("paperinput.txt")
 
-#
-def Factorial(n):
-    if n == 1:
-        return 1
-    else:
-        return n * Factorial(n-1)
-
-# nCr = n!/(r! * (n-r)!)
-def Combination(n, r):
-    return (Factorial(n)) / (Factorial(r) * Factorial(n-r))
-
 T = int(input())
 for test_case in range(1, T+1):
     N = int(input())
-    result = 0
-    for y in range(N//2, -1, -1):
-        x = N - 2*y
-        result *= Combination(x+y, y)
-        result *= 2 ** y
-        print(result)
+    end = N // 10
+    memo = [0] * 31
+    memo[0] = 1
+    memo[1] = 1
+    for i in range(2, 31):
+
+        memo[i] = memo[i-1] + 2 * memo[i-2]
+    print(f'#{test_case} {memo[N//10]}')
+
+
+
+
