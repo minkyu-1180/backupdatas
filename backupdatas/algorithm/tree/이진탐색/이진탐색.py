@@ -33,4 +33,5 @@ for test_case in range(1, T+1):
     tree = [0] * (N+1)
     node = 1
     make_tree(1)
+    print(tree)
     print(f'#{test_case} {tree[1]} {tree[N//2]}')
