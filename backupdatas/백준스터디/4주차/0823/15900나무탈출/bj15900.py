@@ -5,6 +5,9 @@
 #T = int(input())
 #for test_case in range(1, T+1):
 # 트리의 정점 개수(2 <= N <= 500000)
+### stack을 써서 BFS로!
+### 일단 넣는다
+### pop() 해서 해당 pop의 인접 애들을 stack에 넣어주고(node번호, 거리) visited해준다
 import sys
 sys.stdin = open("15900input.txt")
 
