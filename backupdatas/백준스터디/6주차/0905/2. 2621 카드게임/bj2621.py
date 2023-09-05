@@ -2,95 +2,88 @@
 import sys
 sys.stdin = open("bj2621input.txt")
 
+num_counts_dict = {}
+num_count = [0 for _ in range(10)]
+num_type = set()
 
-card_num = dict()
-num_c = [0] * 10
-num_types = set()
 for _ in range(5):
     color, num = input().split()
-    if color in card_num:
-        card_num[color].append(int(num))
+    if color in num_counts_dict:
+        num_counts_dict[color].append(int(num))
     else:
-        card_num[color] = [int(num)]
-    num_c[int(num)] += 1
-    num_types.add(int(num))
-print(card_num)
-print(num_c)
-print(num_types)
-if len(num_types) == 1:
-    for i in range(1, 6):
-        if num_c[i] == 1:
-            for j in range(1, 5):
-                if num_c[i+j] != 1:
-                    result = 900 + num
+        num_counts_dict[color] = [int(num)]
+    num_count[int(num)] += 1
+    num_type.add(int(num))
 
-'''  
-color = []
-num = []
-for _ in range(5):
-    c, n = input().split()
-    color.append(c)
-    num.append(int(n))
 
-# 카드 5장이 모두 같은 색
-if len(set(color)) == 1:
-    num.sort()
-    for i in range(4):
-        # 4
-        if num[i+1] - num[i] != 1:
-            result = num[4] + 600
-            break
-    # 1
-    else:
-        result = num[4] + 900
-else:
-    types_num = set(num)
-    num_count = dict()
-    for n in types_num:
-        if n not in num_count:
-            num_count[n] = num.count(n)
+def same_color(num_counts_dict):
+    if len(num_counts_dict) == 1:
+        return True
+    return False
 
-    # 1-4 or 2-3
-    if len(types_num) == 2:
-        for a, b in num_count:
-            # 4개의 숫자가 같을 때
-            if a == 1:
-                result = b + 800
-            elif a == 4:
-                result = a + 800
+
+def isContinue(num_count):
+    index = 0
+    for i in range(1, 10):
+        if num_count[i] != 1:
+            if num_count[i] != 0:
+                return False
+        else:
+            if index == 0:
+                index = i
             else:
-                if a == 2:
-                    result = b * 10 + a + 700
+                if index + 1 != i:
+                    return False
                 else:
-                    result = a * 10 + b + 700
-    #1-2-2, 1-1-3
-    elif len(types_num) == 3:
-        # 1-2-2
-        if 2 in num_count.values:
-            lst = []
-            for n in types_num:
-                if num_count[n] != 1:
-                    lst.append(n)
-            lst.sort()
-            result = 300 + lst[0] + 10 * lst[1]
-        # 1-1-3
-        else:
-            for n in types_num:
-                if num_count[n] == 3:
-                    result = n + 400
+                    index = i
+    return True
 
-    elif len(types_num) == 4:
-        for n in types_num:
-            if num_count[n] == 2:
-                result = n + 200
-    elif len(types_num) == 5:
-        num.sort()
-        for i in range(4):
-            if num[i+1] - num[i] != 1:
-                result = num[4] + 100
-                break
+
+def same_number(num_count):
+    count = sorted(num_count, reverse=True)
+
+    if count[0] == 4:
+        return 8
+    elif count[0] == 3:
+        if count[1] == 2:
+            return 7
         else:
-            result = num[4] + 500
+            return 4
+    elif count[0] == 2:
+        if count[1] == 2:
+            return 3
+        else:
+            return 2
+
+
+num_type = sorted(list(num_type))
+result = 100 + num_type[-1]
+
+if same_color(num_counts_dict):
+    # case 1
+    if isContinue(num_count):
+        result = max(result, 900 + num_type[-1])
+    # case 4
+    else:
+        result = max(result, 600 + num_type[-1])
+else:
+    # case 5
+    if isContinue(num_count):
+        result = max(result, 500 + num_type[-1])
+
+
+same_number = same_number(num_count)
+if same_number == 8:  # case 2
+    result = max(result, 800 + num_count.index(4))
+elif same_number == 7:  # case 3
+    result = max(result, 700 + num_count.index(3) * 10 + num_count.index(2))
+elif same_number == 4:  # case 6
+    result = max(result, 400 + num_count.index(3))
+elif same_number == 3:  # case 7
+    num1 = num_count.index(2)
+    num2 = num_count.index(2, num1 + 1, 10)
+    result = max(result, 300 + num2 * 10 + num1)
+elif same_number == 2:  # case 8
+    result = max(result, 200 + num_count.index(2))
 
 print(result)
-'''
