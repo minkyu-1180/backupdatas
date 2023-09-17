@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    span {
+      /* inline이라서 원래는 margin, padding을 적용해도 다른 요소를 밀어내지는 못함 */
+      margin: 20px;
+      padding: 20px;
+      /* inline이라서 원래는 width, height 적용 X */
+      width: 80px;
+      height: 50px;
+      background-color: lightblue;
+      border: 2px solid blue;
+      /* 원래 inline 속성인데, inline-block display 사용시 위의 설정들이 영향을 미침 */
+      display: inline-block;
+    }
+
+    ul>li {
+      background-color: crimson;
+      padding: 10px 20px;
+      display: inline-block;
+    }
+
+    .container {
+      /* margin-left: auto;
+      margin-right: auto; */
+      /* 해당 클래스가 적용된 요소 : inline 특징을 가짐(inline or inline-block) */
+      text-align: center;
+
+    }
+
+    .box {
+      /* 기존 block 특징의 div에 inline 요소 적용 */
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: #4CAF50;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 1. 이제 다른 요소를 밀어낼 수 있는 span -->
+  <p>Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Animi iusto enim officia exercitationem
+    dolorque, quasi velit, dolores, tempora illum odio necessitatibus. Fugit,
+    cumque eligendi!</p>
+
+  <!-- 2. 리스트 요소를 가로로 정렬 -->
+  <ul>
+    <li><a href="#">link</a></li>
+    <li><a href="#">link</a></li>
+    <li><a href="#">link</a></li>
+  </ul>
+
+  <!-- 3. div 요소를 가로로 정렬 -->
+  <div >
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+
+</html>

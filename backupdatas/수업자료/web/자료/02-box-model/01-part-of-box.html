@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box1 {
+      /* 해당 박스모델의 bordor width 조정 */
+      /* 만약 주지 않으면, 해당 영역 끝까지 다 차지해버림.. */
+      width: 200px;
+      /* 패딩의 왼쪽 영역 크기 : 25px(border과 content 사이 영억) */
+      padding-left: 25px;
+      /* 패딩의 아래 영역 크기 : 25px */
+      padding-bottom: 25px;
+      /* border의 너비, 색상, 스타일 조정 */
+      border-width: 3px;
+      border-color: black;
+      border-style: solid;
+      /* margin의 왼쪽, 오른쪽 조정(해당 배정된 영역에서 가운데 정렬) */
+      margin-left: auto;
+      margin-right: auto;
+      /* margin-bottom */
+      margin-bottom: 50px;
+    }
+
+    .box2 {
+      width: 200px;
+      /* border의 세 가지 속성 한 번에 조정 */
+      border: 1px black dashed;
+      /* margin-left: auto;
+      margin-right: auto; */
+      /* 상하/좌우 */
+      /* 상하 100px / 좌우 auto */
+      margin: 100px auto;
+      /* 상하 25px / 좌우 50px */
+      padding: 25px 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- div 태그 기본 : width는 양 끝까지 다 차지 -->
+  <div class="box1">box1</div>
+  <div class="box2">box2</div>
+</body>
+
+</html>
