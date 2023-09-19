@@ -6,10 +6,9 @@ def backtracking(i, j, string):
     global result
 
     if len(string) == 7:
-        if string not in cases:
-            cases.append(string)
-            result += 1
-            return
+        cases.add(string)
+        result += 1
+        return
 
     for di, dj in dir:
         ni = i + di
@@ -23,7 +22,7 @@ T = int(input())
 for tc in range(1, T+1):
     arr = [list(map(str, input().split())) for _ in range(4)]
     dir = [[-1, 0], [1, 0], [0, -1], [0, 1]]
-    cases = []
+    cases = set()
     result = 0
     for i in range(4):
         for j in range(4):
