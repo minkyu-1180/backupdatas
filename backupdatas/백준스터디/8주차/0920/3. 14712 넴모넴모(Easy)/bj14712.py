@@ -11,15 +11,9 @@ def backtracking(c):
     # 현재 놓을지 말지 결정할 row, col idx
     i = c//M
     j = c%M
-    if i >= 1 and j >= 1:
+    if (i >= 1 and j >= 1) and [[arr[i-1][j-1], arr[i-1][j]], [arr[i][j-1], arr[i][j]]] == [[1, 1], [1, 0]]:
         # 만약 위쪽을 보았을 때 i, j에 1을 넣으면 넴모 2X2가 되는 경우
-        if [[arr[i-1][j-1], arr[i-1][j]], [arr[i][j-1], arr[i][j]]] == [[1, 1], [1, 0]]:
-            backtracking(c+1)
-        else:
-            arr[i][j] = 1
-            backtracking(c+1)
-            arr[i][j] = 0
-            backtracking(c+1)
+        backtracking(c+1)
     else:
         arr[i][j] = 1
         backtracking(c+1)

@@ -2,75 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a324bc-dc63-4305-8f28-f0124048673e" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/28.4047영준이의카드카운팅/4047영준이의카드카운팅.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/28.4047영준이의카드카운팅/영준이input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/28.4047영준이의카드카운팅/영준이output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/29.3499퍼펙트셔플/퍼펙트셔플.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/29.3499퍼펙트셔플/퍼펙트셔플input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/29.3499퍼펙트셔플/퍼펙트셔플output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/30.2007패턴마디의길이/패턴마디의길이.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/30.2007패턴마디의길이/패턴마디의길이input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/IM대비/30.2007패턴마디의길이/패턴마디의길이output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/10.2628종이자르기/2628종이자르기input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/10.2628종이자르기/2628종이자르기output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/10.2628종이자르기/bj2628.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/11.2798블랙잭/2798블랙잭input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/11.2798블랙잭/2798블랙잭output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/11.2798블랙잭/bj2798.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/12.2839설탕배달/2839설탕배달input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/12.2839설탕배달/2839설탕배달output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/12.2839설탕배달/bj2839.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/13.2980도로와신호등/2980도로와신호등input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/13.2980도로와신호등/2980도로와신호등output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/13.2980도로와신호등/bj2980.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/14.3085사탕게임/bj3085.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/14.3085사탕게임/사탕게임input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/14.3085사탕게임/사탕게임output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/15.3985롤케이크/3985롤케이크input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/15.3985롤케이크/3985롤케이크output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/15.3985롤케이크/bj3985.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/16.8320직사각형을만드는방법/8320직사각형input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/16.8320직사각형을만드는방법/8320직사각형output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/16.8320직사각형을만드는방법/bj8320.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/17.10157자리배정/10157자리배정input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/17.10157자리배정/10157자리배정output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/17.10157자리배정/bj10157.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/9.2605줄세우기/2605줄세우기input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/9.2605줄세우기/2605줄세우기output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/9.2605줄세우기/bj2605.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/.idea/IM대비.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/.idea/IM대비.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/17.1974스도쿠검증/1974스도쿠검증.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/17.1974스도쿠검증/1974스도쿠검증.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/18.1961숫자배열회전/1961숫자배열회전.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/18.1961숫자배열회전/1961숫자배열회전.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/19.4466최대성적표만들기/4466최대성적표만들기.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/19.4466최대성적표만들기/4466최대성적표만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/20.1979어디에단어가들어갈수있을까/1979어디에단어가들어갈수있을까.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/20.1979어디에단어가들어갈수있을까/1979어디에단어가들어갈수있을까.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/21.2805농작물수확하기/2805농작물수확하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/21.2805농작물수확하기/2805농작물수확하기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/22.6190정곤이의단조증가하는수/6190정곤이의단조증가하는수.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/22.6190정곤이의단조증가하는수/6190정곤이의단조증가하는수.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/23.1221GNS/1221GNS.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/23.1221GNS/1221GNS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/24.1215회문1/1215회문1.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/24.1215회문1/1215회문1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/25.1216회문2/1216회문2.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/25.1216회문2/1216회문2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/26.1860진기의최고급붕어빵/1860진기의최고급붕어빵.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/26.1860진기의최고급붕어빵/1860진기의최고급붕어빵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/IM대비/27.4613러시아국기같은깃발/4613러시아국기같은깃발.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/IM대비/27.4613러시아국기같은깃발/4613러시아국기같은깃발.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/.idea/0824~0828IM대비.iml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/.idea/0824~0828IM대비.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/10.2628종이자르기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/10.2628종이자르기/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/11.2798블랙잭/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/11.2798블랙잭/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/12.2839설탕배달/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/12.2839설탕배달/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/13.2980도로와신호등/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/13.2980도로와신호등/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/9.2605줄세우기/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/9.2605줄세우기/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (13)/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (13)/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (14)/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (14)/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (15)/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (15)/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (16)/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/4주차/0824~0828IM대비/새 폴더 - 복사본 (16)/output.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/algorithm/백트래킹과 그래프 2/swea 5249. 최소 신장 트리/swea5249.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/algorithm/백트래킹과 그래프 2/swea 5250. 최소 비용/swea5250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/algorithm/백트래킹과 그래프 2/swea 5251. 최소 이동 거리/swea5251.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0921/1. 22233 가희와 키워드/bj22233.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0921/2. 1522 문자열 교환/bj1522.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0921/3. 5972 택배 배송/bj5972.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0921/4. 1027 고층 건물/bj1027.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0828 - 복사본 (3)/새 폴더/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0828 - 복사본 (3)/새 폴더/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0920/3. 14712 넴모넴모(Easy)/bj14712.py" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/8주차/0920/3. 14712 넴모넴모(Easy)/bj14712.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
