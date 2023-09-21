@@ -1,0 +1,7 @@
+TAK
+3
+NIE
+TAK
+4
+TAK
+4

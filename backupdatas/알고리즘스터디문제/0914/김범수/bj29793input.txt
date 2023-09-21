@@ -1,0 +1,11 @@
+5
+3 4
+SRW
+3 1
+SSS
+3 2
+SSS
+3 3
+SSS
+4 4
+SSSS

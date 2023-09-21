@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% comment %} form 태그 사용 {% endcomment %}
+{% block content %}
+  <h2>Fake naver</h2>
+  {% comment %} action값에 어디로 보낼지에 대한 주소 작성 {% endcomment %}
+  {% comment %} method의 기본값 : GET - url에 노출되는 key-val 값 {% endcomment %}
+  <form action="https://search.naver.com/search.naver/" method="GET">
+    <label for="message">검색하세용</label>
+    {% comment %} 네이버에서 입력받을 때 해당 값을 받는 키 : query {% endcomment %}
+    {% comment %} id값 : 위의 label에서 for 속성의 값 {% endcomment %}
+    <input type="text" name="query" id="message">
+    {% comment %} 서버로 제출(submit) 과정 {% endcomment %}
+    <input type="submit">
+  </form>
+{% endblock content %}

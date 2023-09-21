@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% comment %} 입력값을 받을 url {% endcomment %}
+{% block content %}
+  <h1>THROW</h1>
+  <form action="{% url "articles:catch" %}" method="GET">
+    <label for="message">검색어 </label>
+    <input type="text" name="message" id="message">
+    <input type="submit">
+  </form>
+{% endblock content %}
