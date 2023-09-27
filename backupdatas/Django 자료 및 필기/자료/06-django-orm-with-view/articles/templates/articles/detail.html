@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>DETAIL</h2>
+  <h3>{{ article.pk }}번 째 글</h3>
+  <hr>
+  <h4>{{ article.title }}</h4>
+  <h4>{{ article.content }}</h4>
+  <h4>작성 시간 : {{ article.created_at }}</h4>
+  <h4>최근 수정된 시간 : {{ article.updated_at }}</h4>
+  <hr>
+  {% comment %} 편집 {% endcomment %}
+  <a href="{% url "articles:edit" %}">EDIT</a>
+  {% comment %} 삭제 {% endcomment %}
+  <form action="{% url "articles:delete" article.pk %}" method="POST">
+    {% csrf_token %}
+    <input type="submit" value='삭제'>
+  </form>
+  <a href="{% url "articles:index" %}">[back]</a>
+</body>
+</html>
