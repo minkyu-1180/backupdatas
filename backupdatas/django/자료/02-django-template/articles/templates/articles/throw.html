@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Throw</h1>
+  {% comment %} /catch/ URL로 보낼게! {% endcomment %}
+  <form action="/catch/" method="GET">
+    <label for="message">메세지:</label>
+    {% comment %} 위에서 지정한 URL로 보낼 내용 {% endcomment %}
+    <input type="text" name="message" id="message">
+    <input type="submit">
+  </form>
+{% endblock content %}
