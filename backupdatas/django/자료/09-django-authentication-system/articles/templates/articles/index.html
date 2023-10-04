@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>INDEX</h1>
+  {% comment %} context processor {% endcomment %}
+  {% if user.username %}
+    <h3>{{ user.username }}님 환영합니다!!!</h3>
+    <form action="{% url "accounts:logout" %}" method="POST">
+      {% csrf_token %}
+      <input type="submit" value="LOGOUT">
+    </form>
+  {% else %}
+    <div>
+      <a href="{% url "accounts:login" %}">LOGIN</a>
+    </div>
+  {% endif %}
+  
+
+    <a href="{% url 'articles:create' %}">CREATE</a>
+  </div>
+  <hr>
+  {% for article in articles %}
+    <p>글 번호 : {{ article.pk }}</p>
+    <a href="{% url "articles:detail" article.pk %}">
+      <p>글 제목 : {{ article.title }}</p>
+    </a>
+    <p>글 내용 : {{ article.content }}</p>
+    <hr>
+  {% endfor %}
+</body>
+</html>
