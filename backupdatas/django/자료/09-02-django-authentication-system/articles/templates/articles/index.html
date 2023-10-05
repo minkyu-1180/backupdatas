@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>INDEX</h1>
+  {% comment %} 현재 요청하고 있는 user가 인증되었나요?? {% endcomment %}
+  {% if request.user.is_authenticated %}
+    <h3>{{ user.username }}님 안녕하세요!</h3>
+    {% comment %} 로그아웃 {% endcomment %}
+    <form action="{% url "accounts:logout" %}" method="POST">
+      {% csrf_token %}
+      <input type="submit" value="로그 아웃">
+    </form>
+    {% comment %} 회원 정보 수정 {% endcomment %}
+    <a href="{% url "accounts:update" %}">회원정보 수정</a>
+    {% comment %} 회원탈퇴 {% endcomment %}
+    <form action="{% url "accounts:delete" %}" method="POST">
+      {% csrf_token %}
+      <input type="submit" value="회원 탈퇴">
+    </form>
+  {% else %}
+    <div>
+      <a href="{% url "accounts:signup" %}">회원 가입</a>
+      <a href="{% url "accounts:login" %}">로그인</a>
+    </div>
+  {% endif %}
+  <hr>
+  <a href="{% url 'articles:create' %}">게시글 생성</a>
+  <hr>
+  {% for article in articles %}
+    <p>글 번호 : {{ article.pk }}</p>
+    <a href="{% url "articles:detail" article.pk %}">
+      <p>글 제목 : {{ article.title }}</p>
+    </a>
+    <p>글 내용 : {{ article.content }}</p>
+    <hr>
+  {% endfor %}
+</body>
+</html>
