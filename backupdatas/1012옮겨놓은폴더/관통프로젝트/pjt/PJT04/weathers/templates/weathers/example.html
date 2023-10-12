@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block style %}
+  <style>
+    th {
+      border-color: fff;
+    }
+    th, td {
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+  </style>
+{% endblock style %}
+
+
+{% block content %}
+  <h2>Example : Pandas 써보기</h2>
+  <table>
+    <tr>
+      {% for column in df.column %}
+        <th>{{ column }}</th>
+      {% endfor %}
+    </tr>
+    {% for row in df.values %}
+      <tr>
+        {% for value in row %}
+          <td>{{ value }}</td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock content %}
