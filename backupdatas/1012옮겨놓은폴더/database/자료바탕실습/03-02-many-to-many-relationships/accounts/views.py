@@ -100,7 +100,7 @@ def follow(request, user_pk):
     # 서로 다른 사람이어야 진행
     if you != me:
         # 팔로우 취소/진행에 대한 기준
-        # you.followings.filter(pk=request.user.pk).exists():
+        # me.followings.filter(pk=user_pk).exists():
         if me in you.followers.all(): # 내가 대상의 팔로워 목록에 포함된 경우
             # 팔로우 취소
             you.followers.remove(me)
