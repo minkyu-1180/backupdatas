@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 부모 태그 : div -->
+  <div></div>
+  <script>
+    // 요소 생성(h1 클래스를 가진 태그 생성 => 요소 삽입)
+    const h1Tag = document.createElement('h1')
+    h1Tag.textContent = '제목'
+    console.log(h1Tag)
+
+    // 추가
+    const divTag = document.querySelector('div')
+    // divTag를 부모요소로 선택 -> 가장 마지막 원소로 h1Tag 추가 후 반환
+    divTag.appendChild(h1Tag)
+    console.log(divTag)
+    // 위의 내용
+    // <div>
+    //   <h1>제목</h1>
+    // </div>
+
+    // 삭제
+    // divTag.removeChild(h1Tag)
+    // console.log(divTag)
+  </script>
+</body>
+
+</html>
