@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // if statement
+    const name = 'customer'
+    // if문에서 조건문 : ()안에 작성
+    // 일치 연산자 : ===
+    if (name === 'admin') {
+      console.log('관리자님 안녕하세요.')
+    } else if (name === 'customer') {
+      console.log('환영합니다 고객님.')
+    } else {
+      // f-string : `${var}`
+      console.log(`반갑습니다 ${name}님.`)
+    }
+
+    // 조건(삼항) 연산자 : 세 개의 피연산자를 받음
+    // 그냥 조건문을 사용한 함수
+    const func1 = function (age) {
+      if (age > 19) {
+        return 'Yes'
+      } else {
+        return 'No'
+      }
+    }
+
+    // 삼항 연산자를 사용한 함수
+    const func2 = function (age) {
+      // 조건문(age > 19) -> 물음표(?) -> True일 때의 return 값('Yes') -> 콜론(:) -> False일 때의 return 값('No')
+      return age > 19 ? 'Yes' : 'No'
+    }
+  </script>
+</body>
+
+</html>

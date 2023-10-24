@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // let : 변수에 재할당이 필요할 경우 사용
+    let number = 10 // 변수 선언 및 초기값 할당
+    number = 20 // let 사용시 재할당 가능
+    // let number = 20 : 재선언 불가능
+
+    // const : 기본적으로 권장하는 변수 선언 키워드
+    const numberTwo = 10 // 선언 및 초기값 할당
+    // numberTwo = 20 : 재할당 불가능
+    // const numberTwo = 20 : 재선언 불가능
+    // const numberTwo : 초기값 할당 없이 선언 불가능
+
+    // 블록 스코프(block scope) : if, for 함수 등의 중괄호({}) 내부
+    // 블록 스코프를 가지는 변수는 블록 바깥에서 접근 불가능
+    let x = 1
+    if (x === 1) {
+      let x = 2 // 블록 스코프 내에서 선언(재선언 X)
+      
+      console.log(x) // 블록 스코프 내에서 선언한 x(=2)를 console
+  
+    }
+    console.log(x) // 블록 스코프 바깥에서 선언한 x(=1)를 console
+  </script>
+</body>
+
+</html>

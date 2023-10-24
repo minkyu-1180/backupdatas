@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // for .... in : 객체의 열거 가능한 속성에 대해 반복
+    // 배열의 반복자가 아닌, 속성 열거 -> 인덱스 반환 보장 X
+    const fruits = {a : 'apple', b : 'banana'}
+
+    for (const property in object) {
+      console.log(property) // a, b
+      console.log(object[property]) // apple, banana
+    }
+
+    // for ... of : 반복 가능한 객체(배열, 문자열 등)에 대해 반복
+    const numbers = [0, 1, 2, 3]
+    for (const number of numbers) {
+      console.log(number)
+    }
+
+    // for ... in과 for ... of의 차이점
+    const arr = ['a', 'b', 'c']
+
+    for (const i in arr) {
+      console.log(i) // 0, 1, 2 
+    }
+    for (const i of arr) { 
+      console.log(i) // a, b, c
+    }
+  </script>
+</body>
+
+</html>
