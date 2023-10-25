@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    // 1.1 단순 호출
+    const myFunc = function () {
+      return this
+    }
+    // console.log(myFunc()) // window
+
+    // 1.2 메서드 호출
+    const myObj = {
+      data: 1,
+      myFunc: function () {
+        return this
+      }
+    }
+    // console.log(myObj.myFunc()) // myObj
+
+    // 2. Nested : 중첩되었을 경우
+    // 2.1 일반 함수
+    const myObj2 = {
+      numbers: [1, 2, 3],
+      myFunc: function () {
+        // 일반 함수 호출 -> this가 제대로 가리키지 못함
+        this.numbers.forEach(function (number) {
+          console.log(this) // window
+        })
+      }
+    }
+    // console.log(myObj2.myFunc())
+
+    // 2.2 화살표 함수
+    const myObj3 = {
+      numbers: [1, 2, 3],
+      myFunc: function () {
+        // 화살표를 통해 this 제대로 사용
+        // 본인의 상위 scope의 this를 가져다 쓴다
+        // function의 this : myObj3
+        this.numbers.forEach((number) => {
+          console.log(this) // myObj3
+        })
+      }
+    }
+    // console.log(myObj3.myFunc())
+
+  </script>
+</body>
+
+</html>
