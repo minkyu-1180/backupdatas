@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="btn">버튼</button>
+
+  <script>
+    // addEventListner 활용
+    // 1. 버튼 선택
+    const btn = document.querySelector('#btn')
+    // 2. 선택한 버튼에 event handler 부착
+    // 3. console에 btn을 출력하는 callBack 함수 작성
+    // 해당 callBack 함수는 event object를 유일한 매개변수로 받는다
+    btn.addEventListener('click', function (event) {
+      // 버튼을 누르면 console에 event 출력
+      // PointerEvent
+      console.log(event)
+      // event.target : 버튼을 누르면 event handler를 부착한 해당 요소가 출력
+      console.log(event.target)
+      // event.currentTarget : 버튼을 누르기 전에는 null, 누르면 부착한 해당 요소 
+      console.log(event.currentTarget)
+      // event handler는 강제로 event 대상을 가리킴 
+      // 이러한 이유로, event handler의 콜백함수는 화살표 함수로 지정하지 못한다.
+      console.log(this)
+    })
+  </script>
+</body>
+
+</html>
