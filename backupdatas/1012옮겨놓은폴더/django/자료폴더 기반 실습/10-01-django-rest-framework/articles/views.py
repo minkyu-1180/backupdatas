@@ -27,7 +27,7 @@ def article_detail(request, article_pk):
         article.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
     elif request.method == 'PUT':
-        serializer = ArticleSerializer(article, data=request.data)
+        serializer = ArticleSerializer(instance=article, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)

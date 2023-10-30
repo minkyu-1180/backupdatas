@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- 버튼을 누르면 이동 -->
+  <button>냥냥펀치</button>
+
+  <script>
+    const URL = 'https://api.thecatapi.com/v1/images/search/' // 주소 객체
+    const btn = document.querySelector('button') // 버튼 객체
+
+    // 버튼을 누를 때 호출되는 callBack 함수 생성
+    const getCats = function () {
+      axios({
+      method: 'get',
+      url: URL,
+      })
+          // 첫 번째 then의 역할
+          // 응답 받은 결과에서 url을 찾고
+          // img 태그를 만들고
+          // img 속성을 채우고
+          // body tag에 img 속성을 추가한다
+          // 너무 많아... then chaining을 이용해서 분리해보자
+        
+        // 1. 응답 받은 결과로부터 필요한 img url 찾기
+        .then((response) => {
+          // console.log(response)
+          // console.log(response.data)
+          // console.log(response.data[0].url)
+          const imgUrl = response.data[0].url
+          // 뒤의 then의 callback 함수의 인자 전달
+          return imgUrl
+        })
+        // 위의 then에서 찾은 img url을 새롭게 생성한 img 태그의 속성에 추가
+        .then((response) => {
+          const imgTag = document.createElement('img')
+          imgTag.setAttribute('src', response)
+          return imgTag
+        })
+        // 위의 then에서 생성하고 img url을 추가한 img태그를 body 태그 속성으로 추가
+        .then((response) => {
+          document.body.appendChild(response)
+        })
+        .catch((error) => {
+          console.log(error)
+          console.log('실패했다옹')
+        })
+          console.log('야옹야옹')
+      }
+    btn.addEventListener('click', getCats)
+    
+  </script>
+</body>
+
+</html>
