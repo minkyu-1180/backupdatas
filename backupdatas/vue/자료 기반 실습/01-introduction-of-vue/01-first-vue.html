@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <!-- 일단 쓰고 나중에 이해하자... -->
+    <!-- addEventListener(callback)과 같은 역할 -->
+    <button @click="count++">{{ count }}</button>
+  </div>
+
+  <!-- CDN에서 Vue 사용 -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    // js에서 객체 할 때, 구조 분해 할당시 사용한 거
+    // import 느낌
+    const { createApp, ref } = Vue
+    
+    // vue 어플리케이션 instance 생성
+    const app = createApp({
+      // 객체 메서드 setup
+      setup: function () {
+        // 구조 분해 할당에서 가져온 ref를 사용
+        const message = ref('Hello vue!')
+
+        // setup method에서 return에 전달할 것 
+        // 이후 위의 body 부분에 전달이 됨
+        const count = ref(0)
+        // 객체 -> key:value
+        // key 이름과 value 이름이 같아서 단축 속성으로 작성 
+        return {
+          message,
+          count
+        }
+      }
+    })
+
+    // css 선택자를 mount의 인자로 
+    app.mount('#app')
+  </script>
+</body>
+
+</html>

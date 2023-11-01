@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>  
+  <div id="app">
+    <!-- button 태그 내의 textContent에 적용할 함수 : increment -->
+    <!-- btn.addEventListener('click', increment)와 같은 역할 -->
+    <!-- <button @click="increment">{{ count }}</button> 는 축약형 -->
+    <button v-on:click="increment">{{ count }}</button>
+    <p>버튼을 누른 횟수 : {{ count }}</p>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref } = Vue
+
+    const app = createApp({
+      setup: function () {
+        let count = ref(0)
+        
+        // console.log(count) : ref 객체
+        // 우리가 쓰려는 것 : ref객체.value
+        const increment = function () {
+          count.value++
+        }
+        return {
+          count,
+          increment
+        }
+      }
+    })
+    app.mount('#app')
+  </script>
+</body>
+
+</html>
