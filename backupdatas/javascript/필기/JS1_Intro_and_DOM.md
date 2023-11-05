@@ -90,7 +90,7 @@ document 객체
 1. document.querySelector() : 요소 한 개 선택
 - 제공한 선택자와 일치하는 element 한 개 선택
 - 제공한 CSS selector를 만족하는 첫 번째 element 객체 반환(없을 경우, null 반환)
-1. document.querySelectorAll() : 요소 여러 개 선택
+2. document.querySelectorAll() : 요소 여러 개 선택
 - 제공한 선택자와 일치하는 여러 element 선택
 - 제공한 CSS selector를 만족하는 NodeList 반환
 ### 2-3. DOM 조작

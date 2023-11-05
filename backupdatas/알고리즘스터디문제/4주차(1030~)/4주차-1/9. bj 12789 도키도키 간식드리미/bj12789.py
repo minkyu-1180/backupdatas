@@ -1,0 +1,20 @@
+# 백준 12789. 도키도키 간식드리미
+import sys
+sys.stdin = open("bj12789input.txt")
+
+N = int(input())
+wait = list(map(int, input().split()))
+tmp = []
+target = 1
+for i in wait:
+	tmp.append(i)
+	while tmp and tmp[-1] == target: # tmp 스택 하나로 비교
+		tmp.pop()
+		target += 1
+	if len(tmp) > 1 and tmp[-1] > tmp[-2]:
+		print("Sad")
+		sys.exit()
+if tmp:
+	print("Sad")
+else:
+	print("Nice")
