@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <!-- [Bad] v-for with v-if -->
+    <!-- <ul> -->
+      <!-- v-for과 v-if를 함게 사용할 경우 -->
+      <!-- <li v-for="todo in todos" v-if="!todo.isComplete" :key="todo.id"> -->
+        <!-- 실행이 안됨... 에러 발생(타입 에러) -->
+        <!-- v-if가 먼저 실행됨 -->
+        <!-- todo는 v-for에서 나온 변수 -->
+        <!-- v-if에서 실행될 때는 todo가 만들어지지 않은 상태 -->
+        <!-- {{ todo.name }} -->
+      <!-- </li>
+    </ul> -->
+
+    <!-- [Good] v-for with v-if & computed-->
+    <h3>할 일들</h3>
+    <ul>
+      <!-- script 태그에서 미리 필터링 진행한 배열을 사용 -->
+      <li v-for="todo in notCompletedTodos" :key="todo.id">
+        {{ todo.name }}
+      </li>
+    </ul>
+
+    <!-- [Good] v-for with v-if & template-->
+    <h3>할 일들</h3>
+    <ul>
+      <!-- todo 정의에 문제 없게끔  -->
+      <template v-for="todo in todos" :key="todo.id">
+        <li v-if="!todo.isComplete">
+          {{ todo.name }}
+        </li>
+      </template>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref, computed } = Vue
+
+    const app = createApp({
+      setup() {
+        let id = 0
+
+        const todos = ref([
+          { id: id++, name: '복습', isComplete: true },
+          { id: id++, name: '예습', isComplete: false },
+          { id: id++, name: '저녁식사', isComplete: true },
+          { id: id++, name: '노래방', isComplete: false }
+        ])
+
+        // computed 활용
+        const notCompletedTodos = computed(() => {
+          // 필터링된 목록 반환
+          return todos.value.filter((todo) => !todo.isComplete)
+        })
+        return {
+          todos,
+          notCompletedTodos,
+        }
+      }
+    })
+
+    app.mount('#app')
+  </script>
+</body>
+
+</html>
