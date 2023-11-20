@@ -20,13 +20,21 @@
 
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script>
-    const { createApp, ref } = Vue
+    const { createApp, ref, watch } = Vue
 
     const app = createApp({
       setup() {
         const count = ref(0)
         const message = ref('')
         const messageLength = ref(0)
+
+        const countWatch = watch(count, (newValue, oldValue) => {
+          console.log(`newValue: ${newValue}, old Value: ${oldValue}`)
+        })
+
+        const messageWatch = watch(message, (newValue, oldValue) => {
+          messageLength.value = newValue.length
+        })
 
         return {
           count,
