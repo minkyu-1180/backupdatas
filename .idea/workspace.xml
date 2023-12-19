@@ -2,39 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4a324bc-dc63-4305-8f28-f0124048673e" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/1021~1022.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/1. bj 1240 노드사이의 거리/bj1240.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/1. bj 1240 노드사이의 거리/bj1240input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/1. bj 1240 노드사이의 거리/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/1. bj 10815 숫자 카드/bj10815.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/10. bj 2751 수 정렬하기 2/bj2751.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/11. bj 2775 부녀회장이 될테야/bj2775.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/11. bj 2775 부녀회장이 될테야/bj2775input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/11. bj 2775 부녀회장이 될테야/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/12. bj 2869 달팽이는 올라가고 싶다/bj2869.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/12. bj 2869 달팽이는 올라가고 싶다/bj2869input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/12. bj 2869 달팽이는 올라가고 싶다/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/2. bj 14425 문자열 집합/bj14425.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/3. bj 7785 회사에 있는 사람/bj7785.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/4. bj 1620 나는야 포켓몬 마스터 이다솜/bj1620.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/5. bj 1764 듣보잡/bj1764.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/6. bj 1269 대칭 차집합/bj1269.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/7. bj 11478 서로 다른 부분 문자열의 개수/bj11478.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/8. bj 2292 벌집/bj2292.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/9. bj 2609 최대공약수와 최소공배수/bj2609.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/0828 - 복사본 (5)/새 폴더/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/2. bj 스카이라인 쉬운거/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/0828 - 복사본 (5)/새 폴더/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/2. bj 스카이라인 쉬운거/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/.idea/2주차(1018~).iml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/.idea/2주차(1018~).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/문제 - 복사본 (10)/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/3. bj 연구소 3/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/문제 - 복사본 (10)/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/3. bj 연구소 3/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/문제 - 복사본 (11)/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/4. bj 같이 눈사람 만들래/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/알고리즘스터디문제/2주차(1018~)/2주차-2/문제 - 복사본 (11)/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/12주차/1021~1022/4. bj 같이 눈사람 만들래/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/bj2357.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/bj2357input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/1216~1217.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/bj2042.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/bj11505.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/bj11505input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (2)/새 폴더/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (2)/새 폴더/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (3)/새 폴더/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (3)/새 폴더/output.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
