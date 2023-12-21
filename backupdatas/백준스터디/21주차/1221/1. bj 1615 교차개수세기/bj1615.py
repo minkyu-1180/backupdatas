@@ -27,12 +27,20 @@ def query(node, left, right, start, end):
 # M : 간선의 개수(1 <= M <= N(N-1)/2)
 N, M = map(int, input().split())
 edges = []
+
+arr = [set() for _ in range(N+1)]
 for _ in range(M):
     # 왼쪽 그룹의 i번 정점과 오른쪽 그룹의 j번 정점을 연결하는 간선이 있다
     i, j = map(int, input().split())
-    edges.append((i, j))
+    # edges.append((i, j))
+    arr[i].add(j)
 
-edges.sort(key=lambda x : (x[0], x[1]))
+for i in range(1, N+1):
+    for j in sorted(list(arr[i])):
+        edges.append((i, j))
+
+# print(edges)
+# edges.sort(key=lambda x : (x[0], x[1]))
 # print(edges)
 segment_tree = [0] * (4 * N)
 
