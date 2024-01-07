@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4a324bc-dc63-4305-8f28-f0124048673e" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/bj2357.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/bj2357input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1215/1. bj 2357 최솟값과 최댓값/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/1216~1217.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/bj2042.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/bj11505.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/bj11505input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/2. bj11505 구간 곱 구하기/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (2)/새 폴더/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (2)/새 폴더/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/1216~1217/1. bj 2042 구간 합 구하기/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (3)/새 폴더/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backupdatas/백준스터디/20주차/0828 - 복사본 (3)/새 폴더/output.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="f4a324bc-dc63-4305-8f28-f0124048673e" name="디폴트 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
